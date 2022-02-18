@@ -1,0 +1,28 @@
+1 - Introdução -> 
+Falar sobre a escolha da fonta das imagens, facilidade encontrar base de dados
+Falar sobre os exames de Ultrasonografia e falar sobre o TIRADS.
+Usado para avaliar e classificar nódulos na tireoide.
+
+- Colocar uma imagem sobre o ACR TIRADS e falar que irei utilizar o ACR TIRADS e explicar os motivos
+que é uma classificação vastamente utilizada pela comunidade médica e também de análise mais objetiva.
+
+Trabalhos Relacionados ->
+ Publicado pela Springer.
+ Parte de pré-processamento tiraram os recortes feitos pelos médicos 
+ Sample augmentation fez recortando 9 imagens 256 x 256. 
+ Falar que depois que treinar faz o fine tuning e efetua os testes.
+ É possível que tenha contaminação?
+
+ Publicado pela nature
+ Computer Aided Diagnosis
+ Interessante do artigo que ele utiliza uma comparação não somente com CADs mas também
+ com médicos, experientes e iniciantes.
+ Primeira fase usa um algoritmo para segmentar a área de interesse baseado em uma 
+ rede convolucional totalmente conectada,
+ após isso utiliza a AlexNet para gerar 7 características uma googleLeNet modificada na fase
+ de feature utilizou o resultado da AlexNet para gerar a classificação entre Benigno e Maligno.
+
+Proposta.
+ Pesquisa preliminar indica pouca classificação específica.
+ Após resultados testar em mais outras Redes.
+ Propor uma modificação em uma Rede Existente para tentar aumentar a eficiência do classificador.
