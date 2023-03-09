@@ -1,13 +1,10 @@
 '''
 /**
-* 2/2021
+* 1/2022
 * Pontifícia Universidade Católica de Minas Gerais
-* Tópicos III - Prof. Alexei Machado
-* Grupo: 4
+* Advisor - Prof. Alexei Machado
 * Designed by:
 * @author Caio Igor Vasconcelos Nazareth - 504978 
-* @author Igor Machado Seixas - 561897
-* @author Luana Pereira Lins Brasil - 586603 
 * @version 0.10a
 */
 '''
